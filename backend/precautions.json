@@ -1,0 +1,103 @@
+{
+  "Acne_Rosacea": {
+    "precautions": [
+      "Avoid triggers such as spicy food, alcohol and hot drinks.",
+      "Use a gentle, fragrance-free cleanser and moisturizer.",
+      "Apply broad-spectrum sunscreen daily.",
+      "Do not squeeze or scrub the affected skin.",
+      "Protect your face from extreme heat and cold."
+    ],
+    "doctor_advice": "This dataset class covers both acne and rosacea, so the model cannot tell them apart. A dermatologist can confirm which one it is."
+  },
+  "Rosacea": {
+    "precautions": [
+      "Avoid triggers such as spicy food, alcohol and hot drinks.",
+      "Use gentle skin cleansers.",
+      "Protect your face from extreme temperatures.",
+      "Apply sunscreen daily.",
+      "Avoid rubbing or touching your face excessively."
+    ],
+    "doctor_advice": "If redness persists or worsens, consult a dermatologist."
+  },
+  "Acne": {
+    "precautions": [
+      "Wash the face twice a day with a mild cleanser.",
+      "Avoid picking or squeezing pimples.",
+      "Use non-comedogenic products.",
+      "Keep hair and hands away from your face."
+    ],
+    "doctor_advice": "If acne is painful, scarring or not improving, see a dermatologist."
+  },
+  "Actinic_Keratosis": {
+    "precautions": [
+      "Use high-SPF sunscreen regularly.",
+      "Wear protective clothing and a hat outdoors.",
+      "Avoid direct sun during peak hours.",
+      "Check your skin regularly for new or changing spots.",
+      "Avoid tanning beds."
+    ],
+    "doctor_advice": "This group includes lesions that can be pre-cancerous or cancerous. Please have the spot examined by a dermatologist, especially if it is growing, changing or bleeding.",
+    "urgent": true
+  },
+  "Eczema": {
+    "precautions": [
+      "Moisturize skin frequently.",
+      "Avoid known irritants and allergens.",
+      "Bathe with lukewarm water, not hot.",
+      "Wear soft, breathable fabrics.",
+      "Do not scratch affected areas."
+    ],
+    "doctor_advice": "If eczema is severe or does not improve, see a doctor."
+  },
+  "Atopic Dermatitis": {
+    "precautions": [
+      "Moisturize skin regularly.",
+      "Avoid harsh soaps and irritants.",
+      "Wear soft, breathable fabrics.",
+      "Avoid scratching affected areas.",
+      "Use prescribed creams if needed."
+    ],
+    "doctor_advice": "If symptoms are severe, persistent or worsening, consult a dermatologist."
+  },
+  "Warts": {
+    "precautions": [
+      "Avoid touching or picking at the lesions.",
+      "Keep them covered with a bandage.",
+      "Do not share towels or socks.",
+      "Keep the area clean and dry."
+    ],
+    "doctor_advice": "If lesions are painful, spreading or not going away, consult a doctor."
+  },
+  "Lupus": {
+    "precautions": [
+      "Avoid sun exposure and use sunscreen.",
+      "Manage stress and get enough rest.",
+      "Follow any prescribed treatment plan.",
+      "Attend regular checkups."
+    ],
+    "doctor_advice": "If lupus or another connective tissue disease is suspected, see a doctor promptly.",
+    "urgent": true
+  },
+  "Tinea": {
+    "precautions": [
+      "Keep skin clean and dry.",
+      "Do not share clothes or towels.",
+      "Wear breathable fabrics and change clothes daily.",
+      "Use antifungal treatment as advised by a pharmacist or doctor."
+    ],
+    "doctor_advice": "If the infection spreads or does not improve, consult a doctor."
+  },
+  "Unknown_Normal": {
+    "precautions": [
+      "Maintain good hygiene.",
+      "Monitor your skin for changes.",
+      "Stay hydrated and protect your skin from the sun.",
+      "Go for routine checkups."
+    ],
+    "doctor_advice": "If symptoms appear, consult a doctor."
+  },
+  "_default": {
+    "precautions": ["No specific precautions found for this result."],
+    "doctor_advice": "Consult a doctor if symptoms persist."
+  }
+}

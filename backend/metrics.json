@@ -1,0 +1,57 @@
+{
+  "classification_report": {
+    "Acne": {
+      "precision": 0.8794326241134752,
+      "recall": 0.9612403100775194,
+      "f1-score": 0.9185185185185185,
+      "support": 129.0
+    },
+    "Eczema": {
+      "precision": 0.991869918699187,
+      "recall": 0.9682539682539683,
+      "f1-score": 0.9799196787148594,
+      "support": 126.0
+    },
+    "Rosacea": {
+      "precision": 0.9312977099236641,
+      "recall": 0.8714285714285714,
+      "f1-score": 0.9003690036900369,
+      "support": 140.0
+    },
+    "accuracy": 0.9316455696202531,
+    "macro avg": {
+      "precision": 0.934200084245442,
+      "recall": 0.9336409499200197,
+      "f1-score": 0.9329357336411382,
+      "support": 395.0
+    },
+    "weighted avg": {
+      "precision": 0.9336812598887312,
+      "recall": 0.9316455696202531,
+      "f1-score": 0.9316719719583958,
+      "support": 395.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      124,
+      0,
+      5
+    ],
+    [
+      0,
+      122,
+      4
+    ],
+    [
+      17,
+      1,
+      122
+    ]
+  ],
+  "classes": [
+    "Acne",
+    "Eczema",
+    "Rosacea"
+  ]
+}
