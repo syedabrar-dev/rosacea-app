@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">DermaLens mark</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c8b84"/>
+      <stop offset="1" stop-color="#164c68"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="32" fill="url(#g)"/>
+  <circle cx="56" cy="55" r="26" fill="none" stroke="#fff" stroke-width="9"/>
+  <path d="m75 74 20 20" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M56 41v28M42 55h28" fill="none" stroke="#b9f2df" stroke-width="6" stroke-linecap="round"/>
+</svg>
